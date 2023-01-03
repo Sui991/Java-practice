@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="317.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="homework.FXMLDocumentController">
+   <children>
+      <Button layoutX="297.0" layoutY="158.0" mnemonicParsing="false" onAction="#guess" prefHeight="32.0" prefWidth="79.0" text="guess" />
+      <TextField fx:id="numberField" layoutX="62.0" layoutY="159.0" promptText="請輸入整數" />
+      <Label fx:id="rangeText" layoutX="62.0" layoutY="58.0" text="請輸入0~1000的整數">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="answer" layoutX="41.0" layoutY="222.0" prefHeight="46.0" prefWidth="159.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
